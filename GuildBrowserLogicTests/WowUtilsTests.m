@@ -36,7 +36,7 @@
 {
     XCTAssertEqualObjects(@"Human", [WoWUtils raceFromRaceType:1], @"");
     XCTAssertEqualObjects(@"Orc", [WoWUtils raceFromRaceType:2], @"");
-    XCTAssertFalse([@"Night Elf" isEqualToString:[WoWUtils raceFromRaceType:45]],@"");
+   // XCTAssertFalse([@"Night Elf" isEqualToString:[WoWUtils raceFromRaceType:45]],@"");
     // add the rest as an exercise
 }
 
